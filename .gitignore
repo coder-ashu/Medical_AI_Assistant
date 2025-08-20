@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+.venv/
+venv/
+my_env
+
+# Node / React
+node_modules/
+build/
+dist/
+*.log
+
+# Chroma / Vector DB
+chroma/
+*.parquet
+*.npy
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
