@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenvs
+.venv/
+.my_env/
+.env
+*.env
+
+# Node
+Frontened/node_modules
+Frontened/dist
+
+# Chroma store (don't bake into image)
+Backened/chroma_store/
+
+# Git and editor
+.git
+.vscode/
+.idea/
+.DS_Store

@@ -45,7 +45,7 @@ Medical_AI_Assistant/
 
 ## **Step 1 — Create Conda Environment (Python 3.10 recommended)**
 
-## bash
+'''bash
 
 conda create -n medai python=3.10 -y
 conda activate medai
