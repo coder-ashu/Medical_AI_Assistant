@@ -1,30 +1,89 @@
-# Python
+# -----------------------------
+# Python / Backend
+# -----------------------------
+
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.db
-*.sqlite3
-.env
+
+# Virtual environments
 .venv/
 venv/
-my_env
+env/
+.medai/
+.my_env/
+*.env/
 
-# Node / React
-node_modules/
-build/
-dist/
+# Conda environment folders
+conda-env/
+*.conda
+*.egg-info/
+
+# Local config & cache
+.pytest_cache/
+.cache/
 *.log
 
-# Chroma / Vector DB
-chroma/
-*.parquet
-*.npy
+# Environment variables
+.env
+.env.*
 
-# OS files
+
+# -----------------------------
+# ChromaDB (Vector Store)
+# -----------------------------
+Backened/chroma_store/
+Backened/*.json  # if they are dynamically generated (optional)
+
+# Dependencies
+Frontened/node_modules/
+
+# Build outputs
+Frontened/dist/
+Frontened/.vite/
+
+# Vite cache
+Frontened/.vite/
+Frontened/.cache/
+
+
+
 .DS_Store
-Thumbs.db
+.AppleDouble
+.LSOverride
 
-# IDE
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# VSCode
 .vscode/
+.history/
+*.code-workspace
+
+# Pycharm / JetBrains
 .idea/
+
+# -----------------------------
+# Docker / Build Artifacts
+# -----------------------------
+*.dockerfile
+*.tar
+*.img
+*.container
+docker-compose.override.yml
+
+
+*.out
+*.tmp
+
+# Ignore lock files (optional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
