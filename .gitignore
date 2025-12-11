@@ -30,7 +30,7 @@ conda-env/
 # Environment variables
 .env
 .env.*
-
+Backened/model_cache/
 
 # -----------------------------
 # ChromaDB (Vector Store)
