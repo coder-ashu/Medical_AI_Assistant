@@ -15,6 +15,7 @@ env/
 .medai/
 .my_env/
 *.env/
+myvenv/
 
 # Conda environment folders
 conda-env/
